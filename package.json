@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/dist",
+    "debug": "node --inspect server/dist",
     "compile-prod": "webpack --config server/webpack/webpack.prod.js",
     "compile-dev": "webpack --config server/webpack/webpack.dev.js",
     "watch": "nodemon --config server/nodemon.json --exec \"npm run compile-dev && npm start\"",
     "watch-prod": "nodemon --config server/nodemon.json --exec \"npm run compile-prod && npm start\"",
     "build-dev": "webpack --config client/webpack/webpack.dev.js",
-    "build-prod": "webpack --config client/webpack/webpack.prod.js"
+    "build-prod": "webpack --config client/webpack/webpack.prod.js",
+    "watch-debug": "nodemon --config server/nodemon.json --exec \"npm run compile-dev && npm run debug\""
   },
   "repository": {
     "type": "git",

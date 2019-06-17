@@ -41,4 +41,5 @@ Now the server is available on [this](http://localhost:5000)
     * Babel
 * Dotenv
 * npm
+* vsc debug
 
