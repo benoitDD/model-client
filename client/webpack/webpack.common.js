@@ -38,7 +38,7 @@ module.exports = () => {
         module: {
             rules: [{
                     test: /\.js$/,
-                    include: path.resolve(__dirname, '../client'),
+                    include: path.resolve(__dirname, '..'),
                     use: ['babel-loader']
                 }
             ]
