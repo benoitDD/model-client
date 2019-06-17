@@ -44,4 +44,5 @@ Now the server is available on [this](http://localhost:5000)
 * vsc debug
 * ESLint
 * React
+* Jest
 

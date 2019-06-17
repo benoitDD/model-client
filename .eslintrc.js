@@ -23,7 +23,10 @@ module.exports = {
     ],
     "globals": {
         "process": "readonly",
-        "__dirname": "readonly"
+        "__dirname": "readonly",
+        "test": "readonly",
+        "describe": "readonly",
+        "expect": "readonly"
     },
     "rules": {
         "indent": [
