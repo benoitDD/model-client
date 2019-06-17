@@ -1,0 +1,45 @@
+{
+  "name": "model-client",
+  "version": "1.0.0",
+  "description": "model-client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/dist",
+    "compile-prod": "webpack --config server/webpack/webpack.prod.js",
+    "compile-dev": "webpack --config server/webpack/webpack.dev.js",
+    "watch": "nodemon --config server/nodemon.json --exec \"npm run compile-dev && npm start\"",
+    "watch-prod": "nodemon --config server/nodemon.json --exec \"npm run compile-prod && npm start\"",
+    "build-dev": "webpack --config client/webpack/webpack.dev.js",
+    "build-prod": "webpack --config client/webpack/webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benoitDD/model-client.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benoitDD/model-client/issues"
+  },
+  "homepage": "https://github.com/benoitDD/model-client#readme",
+  "dependencies": {
+    "core-js": "3.1.4",
+    "dotenv": "8.0.0",
+    "express": "4.17.1",
+    "loglevel": "1.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/node": "7.4.5",
+    "@babel/preset-env": "7.4.5",
+    "babel-loader": "8.0.6",
+    "clean-webpack-plugin": "3.0.0",
+    "html-webpack-plugin": "3.2.0",
+    "nodemon": "1.19.1",
+    "webpack": "4.34.0",
+    "webpack-cli": "3.3.4",
+    "webpack-merge": "4.2.1",
+    "webpack-node-externals": "1.7.2"
+  }
+}
