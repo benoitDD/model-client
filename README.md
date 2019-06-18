@@ -1,4 +1,4 @@
-# model-client [![Build Status](https://travis-ci.org/benoitDD/model-client.svg?branch=master)](https://travis-ci.org/benoitDD/model-client)
+# model-client [![Build Status](https://travis-ci.org/benoitDD/model-client.svg?branch=master)](https://travis-ci.org/benoitDD/model-client) [![Maintainability](https://api.codeclimate.com/v1/badges/dafaa385819d92eb0b5a/maintainability)](https://codeclimate.com/github/benoitDD/model-client/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/dafaa385819d92eb0b5a/test_coverage)](https://codeclimate.com/github/benoitDD/model-client/test_coverage)
 
 Model project for a client
 
