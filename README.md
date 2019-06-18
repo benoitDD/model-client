@@ -1,4 +1,4 @@
-# model-client
+# model-client [![Build Status](https://travis-ci.org/benoitDD/model-client.svg?branch=master)](https://travis-ci.org/benoitDD/model-client)
 
 Model project for a client
 
