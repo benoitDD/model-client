@@ -47,4 +47,5 @@ Now the server is available on [this](http://localhost:5000)
 * Jest
 * Jenkins
 * Travis
+    * Code climate
 
